@@ -1,0 +1,57 @@
+#noAi {
+    width: 1920px;
+    height: 1080px;
+}
+
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc !important; /* Optional: Change color on hover */
+}
+
+.content-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.drive-in {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust this value as needed */
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie-screen-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.form-container {
+    background-image: linear-gradient(to top, rgba(18, 63, 79, 1), rgba(41, 144, 181, 1));
+    padding: 7rem;
+    margin-top: -5rem; /* Adjust this value to overlap with the drive-in section */
+    position: relative;
+    z-index: 2;
+}
+
+#movie-suggestion-form {
+    width: 60%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.gradient-navbar {
+    background-image: linear-gradient(to right, rgba(18, 63, 79, 1), rgba(41, 144, 181, 1));
+}
