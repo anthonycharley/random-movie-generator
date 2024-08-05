@@ -1,11 +1,3 @@
-// TMDB API URL and API key
-const tmdbApiUrl = 'https://api.themoviedb.org/3/';
-const tmdbApiKey = 'bf5cc00a266e929bf7bf172bf4633465';
-
-// YouTube API URL and API key
-const youtubeApiUrl = 'https://www.googleapis.com/youtube/v3/search';
-const youtubeApiKey = 'AIzaSyB-cZY_5Kp2FiLQ0kQqWITdf6o3jgRNq38';
-
 // HTML elements
 const movieTitleElement = document.getElementById('movie-title');
 const movieDescriptionElement = document.getElementById('movie-description');
